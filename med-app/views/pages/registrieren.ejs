@@ -1,0 +1,51 @@
+<% include ../partials/header %>
+
+<section>
+    <div class="indexPresentation">
+      <div class="row">
+        <div class="col-xs-6 pres-half pres-inner">
+          <img class="pres-img" src="https://vignette.wikia.nocookie.net/project-pokemon/images/4/47/Placeholder.png/revision/latest?cb=20170330235552">
+        </div>
+        <div class="col-xs-6 pres-half pres-inner">
+          <div class="container">
+            <div class="reg-wrap">
+              <h1 class="reg-title">Jetzt Registrieren</h1>
+              <div class="form-group">
+                <form>
+                  <div class="first-name reg-input">
+                    <input class="form-control" type="text" name="vorname" placeholder="Vorname">
+                  </div>
+                  <div class="last-name reg-input">
+                    <input class="form-control" type="text" name="nachname" placeholder="Nachname">
+                  </div>
+                  <div class="username reg-input">
+                    <input class="form-control" type="text" name="username" placeholder="Benutzername">
+                  </div>
+                  <div class="email reg-input">
+                    <input class="form-control" type="email" name="email" placeholder="E-Mail">
+                  </div>
+                  <div class="password reg-input">
+                    <input class="form-control" type="password" name="password" placeholder="Passwort">
+                  </div>
+                  <!-- TODO: front-end js implementation for password camparison -->
+                  <div class="password reg-input">
+                    <input class="form-control" type="password" name="passwordCompare" placeholder="Passwort">
+                  </div>
+                  <div class="regButton">
+                    <button class="btn btn-success btn-lg">Registrieren</button>
+                  </div>
+                </form>
+                <div>
+                  <p class="alreadyRegistered">
+                    <a href="/login">Bereits registriert? Hier Anmelden</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<% include ../partials/footer %>

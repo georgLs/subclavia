@@ -1,0 +1,38 @@
+
+.pres-half {
+  width: 50%;
+}
+
+.pres-inner {
+  min-height: 700px;
+}
+
+.reg-input {
+  width: 300px;
+  margin: 22px auto;
+}
+
+.pres-img {
+  max-width: 100%;
+  height: auto;
+  min-height: 700px;
+}
+
+.reg-wrap {
+  text-align: center;
+  margin-top: 60px;  
+}
+
+.reg-title {
+  padding-bottom: 20px;
+  font-size: xx-large;
+}
+
+.regButton {
+    padding-top: 15px;
+}
+
+.alreadyRegistered {
+  padding-top: 40px;
+  text-align: center;
+}
